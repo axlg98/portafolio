@@ -1,83 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Axel Garcia</title>
-  
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio de Axel Garcia</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
         <body class="cuerpo">
-                <header class="fondoTitulo">
-                        <div class="caja">
-                                <nav>
-                                        <ul>
-                                                <li class="items"><a href="#acercaDeMi">Acerca de mí</a></li>
-                                                <li class="items"><a href="#habilidades-blandas"> Habilidades</a></li>
-                                                <li class="items"><a href="#formaciones"> Formaciones</a></li>
-                                                <li class="items"><a href="#contacto"> Contacto</a></li>
-                                        </ul>
-                                </nav>
-                        </div>
+                <header>
+                    <div class="clase-header">
+                        <h1><img src="img/aig (1).ico" class="logo-aig"></h1>
+                        <nav>
+                            <li class="titulos">
+                                <ul>
+                                    <li class="items"><a href="#sobreMi"> Sobre mí</a></li>
+                                    <li class="items"><a href="#skills"> Habilidades</a></li>
+                                    <li class="items"><a href="#formaciones"> Formaciones</a></li>
+                                    <li class="items"><a href="#proyectos"> Proyectos</a></li>
+                                    <li class="items"><a href="#contacto"> Contacto</a></li>
+                                </ul>
+                            </li>
+                        </nav>
+                    </div>
                 </header>
-                <div class="aboutMe" >
-                        <div class="presentacion"  id="acercaDeMi">
-                                <h2 class="titulo-about"> Acerca de mí</h2>
-                                <p class="about">Hola, me llamo Axel Iván García, vivo en Buenos Aires, Argentina, tengo 23 años.<br> Estudio Licenciatura en informática en la Universidad Nacional de Quilmes. También me gusta aprender de forma autodidacta.</p>
-                        </div>
-                        <img src="img/axelGarcia.jpeg" class="imagen-principal" alt="mi-foto">
+                <div class="presentacion">
+                    <img src="img/axelGarcia.jpeg" class="foto-sobre-mi">
+                    <div class="fondo-sobreMi"  id="sobreMi">
+                        <h2 class="titulo-about"> Hola, me llamo Axel Iván García, vivo en Buenos Aires, Argentina, tengo 23 años.</h2>
+                        <br> <p class="about">Estudio Licenciatura en informática en la Universidad Nacional de Quilmes. También me gusta aprender de forma autodidacta.</p>
+                    </div>
                 </div>
-                <section class="habilidades" id="habilidades-blandas">
-                        <h2 class="titulo"> Habilidades</h2>
-        <div class="global-habilidad">
-                <div class="habilidad-html">
-                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" class="html">
-                </div>
-                        <section class="habilidad-css">
-                                <img src="https://img.icons8.com/color/50/ffffff/css3.png" class="css">
-                        </section>
-                <div class="habilidad-js">
-                        <img src="img/js.png" class="imagen-js">
-                </div>
-        </div>
+                <section class="skills-general" id="skills">
+                    <h2 class="titulo"> Habilidades</h2>
+                    <article>
+                        <ul class="skills-logo">
+                            <li class="skill-div">
+                                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" class="skill-html">
+                            </li>
+                        <li class="skill-div">
+                                <img src="https://img.icons8.com/color/50/ffffff/css3.png" class="skill-css">
+                        </li>
+                        <li class="skill-div">
+                            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+                        </li>
+                        <li class="skill-div">
+                            <img src="https://img.icons8.com/color/48/000000/git.png"/>
+                        </li>
+                    </ul>
+                    </article>
                 </section>
-                
-        <div class="formacion" >
-                <section  class="seccion-formacion" id="formaciones">
-                        <h2 class="titulo-formacion">Formaciones</h2>
-                        <div class="unq">
-                        <ul class="lista-unq">
-                             <li class="items-unq"><img src="img/logo_unqui.ico" class="imagen-unq"></li>
-                             <li class="items-unq"> <p> 2018- Presente</p></li>
+                <div class="formacion-general" id="formaciones">
+                    <h2 class="titulo"> Formaciones</h2>
+                    <div>
+                        <ul class="lista">
+                            <li class="logo-form"><img src="img/logo_unqui.ico" class="imagen-unq">
+                            <p> 2018- Presente</p></li>
+                            <li class="logo-form"><img src="img/alura.ico">
+                            <p class="parrafo-alura">2022-presente</p></li>
                         </ul>
-                        <ul>
-                                <li class="items-alura"><img src="img/alura.ico"></li>
-                                <li class="items-alura"><p class="parrafo-alura">2022-presente</p></li>
-                        </ul>
-                        </div>
-                </section>
-        </div>
-
-        <div class="mi-contacto" id="contacto">
-                <section class="seccion-contacto">
-                        <h2 class="titulo-contacto"> Contacto</h2>
-                </section>
-                <div class="tipos-contacto">
-                        <div>
-                         <a href="https://www.linkedin.com/in/axel-garcía-44465421a/" ><img src="https://img.icons8.com/color/48/ffffff/linkedin.png" class="social-linkedin"/></a>
-                         <a href="https://www.instagram.com/axell_ivan_/?hl=es-la" ><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" class="social-instagram"/></a>
-                         <a href="https://github.com/axlg98" ><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" class="social-github"/></a>
-                        </div>
+                    </div>
                 </div>
-        </div>
-                <footer class="rodapie">
-                        <div class="derechos">
-                                <p class="letra-derecho">Derechos reservados</p>
+                <div class="proyecto-general" id="proyectos">
+                    <h2 class="titulo"> Proyectos</h2>
+                    <section class="seccion-general">
+                        <div class="contenedor">
+                            <article class="event-proyect">
+                                <figure class="figure-event">
+                                    <img src="img/encript-texto.png" alt="Proyecto encriptador de texto" class="img-proyecto">
+                                </figure>
+                                <div class="div-event">
+                                    <h3 class="tittle">Encriptador de texto</h3>
+                                    <p class="parrafo">Proyecto creado a través de HTML, CSS y Javascript.</p>
+                                    <a href="https://axlg98.github.io/Challenge-codigo-secreto/" class="event-pag" target="_blank">Entrar al Código Secreto</a>
+                                </div>
+                            </article>
                         </div>
-                        <div>
-                                <p class="letra-design">Design by Axel</p>
+                        <div class="contenedor">
+                            <article class="event-proyect">
+                                <figure class="figure-event">
+                                    <img src="img/ahorcado.png" alt="Proyecto del juego del ahorcado" class="img-proyecto">
+                                </figure>
+                                <div class="div-event">
+                                    <h3 class="tittle"> Juego del Ahorcado</h3>
+                                    <p class="parrafo"> Proyecto creado a través de HTML, CSS y Javascript</p>
+                                    <a href="https://axlg98.github.io/Challenge-codigo-secreto/" class="event-pag" target="_blank">Entrar al Juego del Ahorcado</a>
+                                </div>
+                            </article>
                         </div>
-                </footer>
+                    </section>
+                </div>
         </body>
 </html>

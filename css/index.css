@@ -220,10 +220,12 @@ article{
 
 .event-pag{
     text-decoration: none;
-    color: blue;
+    color: black;
     padding: 5px 20px;
     border: 2px solid #000000;
     border-radius: 0.5em;
+    cursor: pointer;
+    background-color: blue;
 }
 
 .event-pag:hover{
@@ -231,6 +233,6 @@ article{
     color: #c78c19;
 }
 
-.event-pag:active{
-    color: green;
+@mediaquery max-width and (480px) {
+    
 }

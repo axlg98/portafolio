@@ -348,4 +348,5 @@ agregarAlTripulante nTrip (S id comps tripulacion) = S id comps (nTrip : tripula
 --Ejercicio 6
 
 sectoresAsignados :: Tripulante -> Nave -> [SectorId]
-sectoresAsignados trip (N treeSector) = asdasd
+sectoresAsignados trip (N treeSector) = 
+   asdas
